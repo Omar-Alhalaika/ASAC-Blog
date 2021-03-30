@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>301 Entrance Exam</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=roboto"> -->
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <p id="asac">ASAC</p>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <section id="author">
+                <section>
+                    <form id="form">
+                        <fieldset>
+                            <legend></legend>
+                            <label for="authorName">Author name:</label>
+                            <input type="text" id="authorName"> <br><br>
+                            <label for="articleTitle">Article Title:</label>
+                            <input type="text" id="articleTitle"><br><br>
+                            <label for="Subject">Subject:</label>
+                            <select name="Subject" id="Subject">
+                                <option value="Coding" id="Coding">Coding:</option>
+                                <option value="3D-printing"
+                                    id="3D-printing">3D printing:</option>
+                                <option value="CyberSecurity"
+                                    id="Cyber-security">Cyber security:</option>
+                                <option value="AI" id="AI">AI</option>
+                            </select><br><br>
+                            <label for="content">Content:</label><br>
+                            <textarea name="content" id="content" rows="10"
+                                cols="55"></textarea><br><br>
+                            <label for="day" id="day">Day:</label>
+                            <input type="number">
+                            <label for="month" id="month">Month:</label>
+                            <input type="number">
+                            <label for="year" id="year">Year:</label>
+                            <input type="number"><br><br>
+                            <label for="submit"></label>
+                            <input type="submit" id="submit">
+                        </fieldset>
+                    </form>
+
+                </section>
+                <section id="result">
+                    <div id="displayDiv">
+                        <p id="displayTitle"></p>
+                        <img src="./img/asac_ltuc.jpg" alt="asac_ltuc" height="60" width="100">
+                        <p id="displayAuthor"></p>
+                        <p id="displayDate"></p>
+                        <p id="displayLikes"></p>
+                        <p id="displaySubject"></p>
+                        <p id="displayContent"></p>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            &copy;All rights reserved ASAC 2021
+
+        </footer>
+
+        <script src="./js/app.js"></script>
+    </body>
+</html>
